@@ -1,0 +1,58 @@
+:root {
+   --primary-text-color:#2E2F42;
+   --secondbery-text-color:#434455;
+   --brend-color:#4D5AE5;
+   --white-color: #FFFFFF;
+   --primery-bg-color:#2E2F42;
+   --secondbery-bg-color:#F4F4FD;
+   --footer-text-color:#E7E9FC;
+}
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+/* шапка сайту */
+.logo {
+    color:var(--brend-color);
+}
+.logo-span {
+color:var(--primary-text-color);
+}
+.nav-link {
+    color: var(--primary-text-color) ;
+}
+.mail-tell {
+    color: var(--secondbery-text-color);
+}
+/* герой сайту */
+.hero {
+    background-color: var(--primery-bg-color);
+}
+.title {
+    color: var(--white-color);
+}
+.button {
+    background-color: var(--brend-color);
+    color: var(--white-color);
+}
+/* наши переваги */
+.text {
+    color: var(--secondbery-text-color);
+}
+/* Що ми будемо робити  */
+
+
+/* наша команда */
+.post {
+    color: var(--secondbery-text-color);
+}
+/* підвал */
+.footer {
+    background-color: var(--primery-bg-color);
+}
+.logo-footer {
+    color: var(--white-color);
+}
+.footer-text {
+    color: var(--footer-text-color);
+}
