@@ -6,6 +6,7 @@
    --primery-bg-color:#2E2F42;
    --secondbery-bg-color:#F4F4FD;
    --footer-text-color:#E7E9FC;
+   --hover-active-color:#404BBF;
 }
 body {
     background-color: var(--white-color);
@@ -20,6 +21,10 @@ color:var(--primary-text-color);
 }
 .nav-link {
     color: var(--primary-text-color) ;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--hover-active-color);
 }
 .mail-tell {
     color: var(--secondbery-text-color);
