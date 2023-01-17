@@ -29,6 +29,10 @@ color:var(--primary-text-color);
 .mail-tell {
     color: var(--secondbery-text-color);
 }
+.mail-tell:hover,
+.mail-tell:focus {
+    color: var(--hover-active-color);
+}
 /* герой сайту */
 .hero {
     background-color: var(--primery-bg-color);
@@ -39,6 +43,10 @@ color:var(--primary-text-color);
 .button {
     background-color: var(--brend-color);
     color: var(--white-color);
+}
+.button:hover,
+.button:focus {
+    background-color: var(--hover-active-color);
 }
 /* наши переваги */
 .text {
