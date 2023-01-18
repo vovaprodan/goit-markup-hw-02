@@ -69,3 +69,16 @@ color:var(--primary-text-color);
 .footer-text {
     color: var(--footer-text-color);
 }
+/* Портфоліо */
+.porfoloi-list {
+    color: var(--brend-color);
+    background-color: var(--secondbery-bg-color);
+}
+.porfoloi-list:hover,
+.porfoloi-list:focus {
+    color: var(--white-color);
+    background-color: var(--hover-active-color);
+}
+.portfolio-text {
+    color: var(--secondbery-text-color);
+}
