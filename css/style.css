@@ -23,12 +23,14 @@ body {
     font-size: 18px;
     line-height: 1.33px;
     letter-spacing: 0.03em;
+    text-decoration: none;
    
 }
 .logo-span {
 color:var(--primary-text-color);
 }
 .nav-link {
+    text-decoration: none;
     color: var(--primary-text-color) ;
     font-weight: 500;
     line-height: 1.5;
@@ -45,10 +47,14 @@ color: var(--hover-active-color);
     color: var(--secondbery-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .mail-tell:hover,
 .mail-tell:focus {
     color: var(--hover-active-color);
+}
+.list {
+    list-style: none;
 }
 /* герой сайту */
 .hero {
@@ -139,15 +145,20 @@ color: var(--hover-active-color);
     color: var(--white-color);
     background-color: var(--hover-active-color);
 }
+.portfolio-link {
+    text-decoration: none;
+}
 .portfolio-title{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+   
 }
 .portfolio-text {
     color: var(--secondbery-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
