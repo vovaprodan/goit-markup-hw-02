@@ -40,9 +40,12 @@ color:var(--primary-text-color);
 .nav-link:focus {
     color: var(--hover-active-color);
 }
-.nav-link-studio:active {
+
+.nav-link.current {
 color: var(--hover-active-color);
 }
+
+
 .mail-tell {
     color: var(--secondbery-text-color);
     line-height: 1.5;
